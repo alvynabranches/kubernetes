@@ -28,7 +28,7 @@ spec:
         - name: mern
           securityContext:
             {}
-          image: "alvynabranches/client"
+          image: "alvynabranches/server"
           imagePullPolicy: IfNotPresent
           envFrom:
           - secretRef:
